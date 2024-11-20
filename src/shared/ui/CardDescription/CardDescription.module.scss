@@ -1,0 +1,31 @@
+.CardDescription {  
+    padding: 12px;
+    // border: 1px solid black;
+    // border-radius: 6px;
+    // box-shadow: 2px 2px 4px rgba(30, 33, 27, 0.5);
+    // margin-left: 18px;
+}
+
+.wrapper {
+    display: flex;
+    margin-top: 12px;
+}
+
+.title {
+    color: var(--primary-color);
+    text-align: center;
+    width: 100%;
+}
+
+.textWrapper {
+    margin-left: 12px;
+}
+
+.description {
+    color: var(--primary-color);
+}
+
+.cardName {
+    font-size: var(--font-m);
+    color: var(--inverted-primary-color);
+}

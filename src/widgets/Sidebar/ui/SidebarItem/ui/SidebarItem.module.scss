@@ -1,0 +1,26 @@
+.SidebarItem {
+    display: flex;
+    align-items: center;
+    margin-top: 16px;   
+}
+
+.icon {
+    width: 60px;
+}
+
+.link {
+    font-size: 18px;
+    margin-left: 20px;
+}
+
+.collapsed {
+    .link {
+        display: none;
+        // transition: 0.2s display;
+    }
+
+    .icon {
+        margin: 0 auto;
+    }
+}
+

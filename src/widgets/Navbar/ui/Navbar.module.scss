@@ -1,0 +1,27 @@
+.navbar {
+    width: 100%;
+    height: var(--navbar-height);
+    background: var(--inverted-bg-color);
+    display: flex;
+    align-items: center;
+    padding: 26px;
+    box-shadow: 6px 6px 6px 4px rgba(0, 0, 0, 0.2);
+}
+
+.links {
+    margin-left: auto;
+}
+
+.mainLink {
+    margin-right: 15px;
+}
+
+.appName {
+    color: var(-bg-color);
+    padding: 0;
+}
+
+.switchers {
+    display: flex;
+    margin-left: 18px;
+}

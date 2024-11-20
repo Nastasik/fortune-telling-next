@@ -1,0 +1,28 @@
+.CardsSpread {
+    max-width: 600px;
+    color: green
+}
+
+.cards {    
+    margin-top: 32px;
+}
+
+.cardsList {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 12px;
+    margin-bottom: 32px;
+}
+
+.cardsList img:nth-child(8) {
+    grid-column: 3/3;
+    grid-row: 2/ 4;
+}
+.cardsList img:nth-child(5) {
+    grid-column: 1 / 4;
+    grid-row: 2/ 4;
+}
+.cardsList img:nth-child(9) {
+    grid-column: 2/ 4;
+    grid-row: 2/ 4;
+}
