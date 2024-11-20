@@ -1,0 +1,1 @@
+export { OtherCards } from './ui/OtherCards';

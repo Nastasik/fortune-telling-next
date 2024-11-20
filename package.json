@@ -1,0 +1,39 @@
+{
+  "name": "fortune-telling-next",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "start-json-server": "json-server --watch ./json-server/db.json",
+    "start-dev-server": "node ./json-server/index.js",
+    "start-dev": "concurrently \"npm run start-dev-server\" \"npm run dev\""
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@formatjs/intl-localematcher": "^0.5.4",
+    "@react-spring/web": "^9.7.5",
+    "@reduxjs/toolkit": "^2.2.6",
+    "@use-gesture/react": "^10.3.1",
+    "accept-language": "^3.0.20",
+    "axios": "^1.7.2",
+    "json-server": "^0.17.4",
+    "next": "^14.2.4",
+    "react": "^18.3.1",
+    "react-cookie": "^7.2.0",
+    "react-dom": "^18.3.1",
+    "react-redux": "^9.1.2"
+  },
+  "devDependencies": {
+    "@svgr/webpack": "^8.1.0",
+    "@types/node": "20.14.10",
+    "@types/react": "18.3.3",
+    "concurrently": "^8.2.2",
+    "sass": "^1.77.8",
+    "typescript": "5.5.3"
+  }
+}

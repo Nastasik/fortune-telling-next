@@ -1,0 +1,89 @@
+{
+    "cardsList": [
+        {
+            "id": "1",
+            "title": "Туз кубков",
+            "cardName": "Туз кубков",
+            "src": "http://localhost:8000/assets/images/aceofcups.png",
+            "description": "3 карты"
+            
+        },
+        {
+            "id": "2",
+            "title": "Двойка кубков",
+            "description": "8 карт ",
+            "cardName": "Двойка кубков",
+            "src": "http://localhost:8000/assets/images/two.png"
+            
+        },
+        {
+            "id": "3",
+            "title": "Тройка кубков",
+            "description": "Произошло какое-то событие",
+            "cardName": "Тройка кубков",
+            "src": "http://localhost:8000/assets/images/three.png"
+        },
+        {
+            "id": "4",
+            "title": "Четверка кубков",
+            "cardName": "Четверка кубков",
+            "src": "http://localhost:8000/assets/images/four.png",
+            "description": "3 карты"
+        },
+        {
+            "id": "5",
+            "title": "Card 1",
+            "cardName": "Пятерка кубков",
+            "src": "http://localhost:8000/assets/images/five.png",
+            "description": "3 карты"
+        }, {
+            "id": "4",
+            "title": "Card 4",
+            "cardName": "Шестерка кубков",
+            "src": "http://localhost:8000/assets/images/six.png",
+            "description": "3 карты"
+        }, {
+            "id": "5",
+            "title": "Card 1",
+            "cardName": "Семерка кубков",
+            "src": "http://localhost:8000/assets/images/seven.png",
+            "description": "3 карты"
+        }, {
+            "id": "4",
+            "title": "Card 4",
+            "cardName": "Восьмерка кубков",
+            "src": "http://localhost:8000/assets/images/eight.png",
+            "description": "3 карты"
+        }, {
+            "id": "5",
+            "title": "Card 1",
+            "cardName": "Девятка кубков",
+            "src": "http://localhost:8000/assets/images/nine.png",
+            "description": "3 карты"
+        }, {
+            "id": "4",
+            "title": "Card 4",
+            "cardName": "Десятка кубков",
+            "src": "http://localhost:8000/assets/images/ten.png",
+            "description": "3 карты"
+        }, {
+            "id": "5",
+            "title": "Card 1",
+            "cardName": "Паж кубков",
+            "src": "http://localhost:8000/assets/images/pageofcups.png",
+            "description": "3 карты"
+        }, {
+            "id": "4",
+            "title": "Card 4",
+            "cardName": "Рыцарь кубков",
+            "src": "http://localhost:8000/assets/images/knightofcups.png",
+            "description": "3 карты"
+        }, {
+            "id": "5",
+            "title": "Card 1",
+            "cardName": "Королева кубков",
+            "src": "http://localhost:8000/assets/images/queenofcups.png",
+            "description": "3 карты"
+        }
+    ]
+}

@@ -1,0 +1,16 @@
+.link {
+    color: var(--primary-color);
+    height: var(--navbar-height);
+    background: var(--inverted-bg-color);
+    display: flex;
+    align-items: center;
+    padding: 26px;
+}
+
+.primary {
+    color: var(--primary-color);
+}
+
+.secondary {
+    color: var(--secondary-color);
+}

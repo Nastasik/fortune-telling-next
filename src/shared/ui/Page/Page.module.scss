@@ -1,0 +1,14 @@
+.Page {
+    background: var(--bg-color);
+    flex-grow: 1;
+    padding: 20px 20px 20px 45px;
+    margin: 0;
+    height: calc(100vh - var(--navbar-height));
+    overflow-y: auto;
+    flex-shrink: 100;
+}
+
+.trigger {
+    width: 20px;
+    height: 20px;
+}

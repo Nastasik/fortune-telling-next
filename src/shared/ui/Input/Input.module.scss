@@ -1,0 +1,85 @@
+.InputWrapper {
+    position: relative;
+    cursor: pointer;
+    background: none;
+    margin-top: 18px;
+    width: 100%;
+}
+
+.input {  
+    font: var(--font-size-l);
+    border: none;
+    border-radius: 8px;
+    width: 100%;
+    padding: 8px;
+
+    &:focus {
+        outline: none;
+    }    
+}
+
+input::placeholder {
+    color: var(--inverted-primary-color);
+    opacity: 1; /* Firefox */
+}
+  
+input::-ms-input-placeholder { /* Edge 12 -18 */
+    color: var(--inverted-primary-color);
+}
+
+.title {
+    margin-bottom: 12px;
+}
+
+.caret {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 3px;
+    width: 9px;
+    background: var(--primary-color);
+
+    animation: blink 0.7s forwards infinite;
+}
+
+@keyframes blink {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 0.01;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+.background {
+    color: var(--primary-color);
+    background: var(--secondary-light-color);
+}
+
+.backgroundInverted {
+    color: var(--inverted-primary-color);
+    background: var(--inverted-bg-color);
+}
+
+.underline {
+    color: var(--primary-color);
+    background: var(--bg-color);
+    border: none;
+    border-radius: 0;
+    background: none;
+    border-bottom: 1px solid var(--primary-color);
+}
+
+.outline {
+    color: var(--primary-color);
+    
+    background: var(--bg-color);
+    border: 1px solid var(--primary-color);
+}
+
+.readonly {
+    opacity: 0.7;
+}

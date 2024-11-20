@@ -1,0 +1,1 @@
+export { getCardsSpreadCards } from './selectors/cardsSpread';

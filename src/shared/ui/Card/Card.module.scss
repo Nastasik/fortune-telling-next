@@ -1,0 +1,27 @@
+.Card {
+    width: 120px;
+    height: 220px;
+    padding: 0;
+    border: 1px solid black;
+    border-radius: 6px;
+    box-shadow: 2px 2px 4px rgba(30, 33, 27, 0.5);
+    margin-left: 18px;
+}
+
+.small {
+    width: 60px;
+}
+
+.normal {
+    width: 120px;
+    height: 190px;
+}
+
+.big {
+    width: 160px;
+    height: 240px;
+}
+
+.max {
+    width: 100%;
+}
